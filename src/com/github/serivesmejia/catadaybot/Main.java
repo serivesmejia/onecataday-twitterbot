@@ -289,8 +289,6 @@ public class Main {
 		String res = response.getData();;
 		
 		if(res.contains("{\"errors\":[{\"message\":\"You sent an invalid key.\"}]}")) {
-			System.out.println("ERROR: " + res);
-			System.out.println("Intenta usar una maker key valida e intenta de nuevo.\nLa aplicacion terminara ahora (EXIT CODE: 1)");
 			return false;
 		}
 		return true;
