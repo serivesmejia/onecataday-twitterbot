@@ -2,6 +2,8 @@ package com.github.serivesmejia.catadaybot;
 
 import java.util.ArrayList;
 
+import com.github.serivesmejia.catadaybot.gato.GatoStack;
+
 public class SaveData {
 
 	public int gatosConseguidos = 0;

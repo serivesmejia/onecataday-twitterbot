@@ -1,4 +1,4 @@
-package com.github.serivesmejia.catadaybot;
+package com.github.serivesmejia.catadaybot.gato;
 
 public class GatoStack {
 	

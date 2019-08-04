@@ -1,11 +1,11 @@
-package com.github.serivesmejia.catadaybot;
+package com.github.serivesmejia.catadaybot.gato;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 public class Gatos {
 
-	Gato[] gatos;
+	public Gato[] gatos;
 	
 	public Gatos(Gato[] gatos) {
 		this.gatos = gatos;
